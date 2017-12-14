@@ -63,16 +63,6 @@ var protos = {
   */
   list: {
     optional: 'filters',
-    modifiers: {
-      filters: function(filters) {
-        // if filters is not an array, wrap it in an array
-        if (!Array.isArray(filters)) {
-          return [ filters ];
-        }
-
-        return filters;
-      }
-    }
   }
 };
 
