@@ -22,7 +22,7 @@
     "node": ">=0.10.20"
   },
   "dependencies": {
-    "request": "2.34.0",
+    "request": "2.88.2",
     "xmlrpc": "1.2.0"
   },
   "keywords": [
